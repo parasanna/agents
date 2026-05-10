@@ -30,4 +30,3 @@ public enum ZoneType {
     public boolean requiresSupply() { return this == MARKETS || this == LEISURE; }         // Ο  εφοδιασμός γίνεται μόνο σε Αγορές (3) και Διασκέδαση (4)
     public boolean requiresWasteCollection() { return this != ROAD && this != EMPTY; } // Τα απορρίμματα μαζεύονται από τις περιοχές 1, 2, 3, 4, 5
 }
-
